@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackk"
+    tools:context=".LogIn_Activity">
+
+    <TextView
+        android:id="@+id/textlogin"
+        android:layout_width="192dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="40dp"
+        android:text="Log In"
+        android:textColor="#0F5213"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:id="@+id/number_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textlog"
+            android:layout_width="40dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_corner"
+            android:text="+27"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/phone_number_id_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_corner"
+            android:ems="10"
+            android:hint="Enter your number..."
+            android:inputType="number"
+            android:textColorHint="@color/white" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/log_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="377dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/round_button_corner"
+        android:text="Log In" />
+
+    <TextView
+        android:id="@+id/forgot_number_link"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/number_layout"
+        android:layout_marginLeft="180dp"
+        android:text="Forgot number?"
+        android:textAlignment="center"
+        android:textColor="#87F7D7"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/new_user_link"
+        android:layout_width="220dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/forgot_number_link"
+        android:layout_marginLeft="40dp"
+        android:text="Create Account for new user!"
+        android:textAlignment="center"
+        android:textColor="#87F7D7"
+        android:textSize="18dp" />
+</RelativeLayout>

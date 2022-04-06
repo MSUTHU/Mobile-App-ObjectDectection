@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "545528569038",
+    "project_id": "piedpiperd-e9ffa",
+    "storage_bucket": "piedpiperd-e9ffa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545528569038:android:5ab13fdc72d561dd32849f",
+        "android_client_info": {
+          "package_name": "com.example.piedpiperd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545528569038-ie8deufoj5mf3a0t5njbjujne6pn4s2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW52uvKSj9hGm0P_gjT3cx5W0no5jXSEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545528569038-ie8deufoj5mf3a0t5njbjujne6pn4s2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
